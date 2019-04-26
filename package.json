@@ -1,0 +1,34 @@
+{
+  "name": "reactboilerplate",
+  "version": "1.0.0",
+  "description": "start boilerplate for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev-bundle": "webpack -wd"
+  },
+  "author": "Diogo Esteves",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.7.1",
+    "nodemon": "^1.18.11",
+    "react-test-renderer": "^16.8.6"
+  }
+}
